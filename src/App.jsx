@@ -6,7 +6,7 @@ import { supabase } from './supabase.js'
 // "pos" escolhe qual parte da foto fica visível no celular.
 const CATEGORIES = [
   { id: 'lanches', label: 'Lanches', tagline: 'Direto da chapa, sem enrolação', accent: '#f97316', glow: 'rgba(249,115,22,0.35)', scene: 'fundos/lanches.jpg', pos: '15% 50%' },
-  { id: 'porcoes', label: 'Porções', tagline: 'Pra dividir (ou não)', accent: '#fbbf24', glow: 'rgba(251,191,36,0.3)', scene: 'fundos/porcoes.jpg', pos: '85% 50%' },
+  { id: 'porcoes', label: 'Combos', tagline: 'Melhor opção para família', accent: '#fbbf24', glow: 'rgba(251,191,36,0.3)', scene: 'fundos/porcoes.jpg', pos: '85% 50%' },
   { id: 'bebidas', label: 'Bebidas', tagline: 'Geladas do jeito certo', accent: '#22d3ee', glow: 'rgba(34,211,238,0.3)', scene: 'fundos/bebidas.jpg', pos: '20% 50%' },
   { id: 'mousses', label: 'Mousses', tagline: 'O final doce', accent: '#f9a8d4', glow: 'rgba(249,168,212,0.3)', scene: 'fundos/mousses.jpg', pos: '20% 50%' },
 ]
